@@ -1,6 +1,5 @@
 @charset 'utf-8';
 
-@import 'style';
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -31,8 +30,8 @@
 @include foundation-media-object;
 @include foundation-off-canvas;
 @include foundation-orbit;
-@include foundation-pagination;
-@include foundation-progress-bar;
+//@include foundation-pagination;
+//@include foundation-progress-bar;
 // @include foundation-progress-element;
 // @include foundation-progress-element;
 // @include foundation-meter-element;
@@ -40,7 +39,7 @@
 @include foundation-sticky;
 @include foundation-reveal;
 @include foundation-switch;
-@include foundation-table;
+//@include foundation-table;
 @include foundation-tabs;
 @include foundation-thumbnail;
 @include foundation-title-bar;
@@ -54,3 +53,28 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+section{
+    height: $screen-height;
+    background: #f0f0f0;
+}
+
+.hero{
+    position: absolute;
+    top: 25vh;
+    left: 30vh;
+    background-color: $secondary-color;
+    height: 50vh;
+}
+.hero-title-subtitle{
+    float: $align-left;
+}
+
+.hero-title-text{
+    font-size: 5rem;
+    letter-spacing: -0.5px;
+    float: $align-right;
+    font-family: $font-family-hero;
+    font-weight: $hero-font-weight;
+}

@@ -72,7 +72,7 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #1779ba,
-  secondary: #767676,
+  secondary: #C79C48,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -100,8 +100,15 @@ $global-prototype-breakpoints: false;
 $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
 
-$hero-font-family: 'Merriweather', serif;
+// Hero styles
+$font-family-hero: 'Merriweather', serif;
+$hero-font-weight: 900;
 
+$secondary-color: #C79C48;
+
+$screen-height: 100vh;
+$align-left: left;
+$align-right: right;
 @include add-foundation-colors;
 
 // 2. Breakpoints
